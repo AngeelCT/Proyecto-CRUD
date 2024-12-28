@@ -1,0 +1,287 @@
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #4e6fa3;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(120deg, #d3e6f7, #a9c9f5);
+    height: 100vh;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #00bcd4;
+    color: white;
+}
+
+a:link, a:visited {
+    background: linear-gradient(to right, #4e6fa3, #9b4fe0);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+a:hover, a:active {
+    background: linear-gradient(to right, #6fa3d5, #c2a1f0);
+    border: 2px solid #9b4fe0;
+    border-radius: 5px;
+}
+
+h1, h2, h3, h4 {
+    text-align: center;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #00bcd4;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #0097a7;
+    border: 2px solid #9b4fe0;
+}
+
+button {
+    background: linear-gradient(to right, #4e6fa3, #9b4fe0);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+button:hover {
+    background: linear-gradient(to right, #6fa3d5, #c2a1f0);
+    border: 2px solid #9b4fe0;
+}
+
+.cerrar-sesion {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+    z-index: 999;
+}
+
+.cerrar-sesion:hover {
+    background-color: #0056b3;
+}
+
+.boton-nuevo {
+    text-align: right;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+.nuevo-alumno {
+    background: linear-gradient(to right, #4e6fa3, #9b4fe0);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid transparent;
+    font-size: 16px;
+}
+
+.nuevo-alumno {
+    background: linear-gradient(to right, #4e6fa3, #9b4fe0);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.nuevo-alumno:hover, .nuevo-alumno:active {
+    background: linear-gradient(to right, #6fa3d5, #c2a1f0);
+    border: 2px solid #9b4fe0;
+    border-radius: 5px;
+}
+
+a.editar-btn {
+    background: linear-gradient(to right, #4e6fa3, #9b4fe0);
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+a.editar-btn i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+a.editar-btn:hover {
+    background: linear-gradient(to right, #6fa3d5, #c2a1f0);
+    border: 2px solid #9b4fe0;
+    border-radius: 5px;
+}
+
+a.eliminar-btn {
+    background: linear-gradient(to right, #9b4fe0, #6a1b9a);
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+}
+
+a.eliminar-btn i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+a.eliminar-btn:hover {
+    background: linear-gradient(to right, #c94b9c, #9b4fe0);
+    border: 2px solid #9b4fe0;
+    border-radius: 5px;
+}
+
+.actualizar-btn {
+    background: linear-gradient(to right, #4e6fa3, #9b4fe0);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.actualizar-btn i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.actualizar-btn:hover {
+    background: linear-gradient(to right, #6fa3d5, #c2a1f0);
+    border: 2px solid #9b4fe0;
+}
+
+.agregar-btn {
+    background: linear-gradient(to right, #4e6fa3, #9b4fe0);
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.agregar-btn i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.agregar-btn:hover {
+    background: linear-gradient(to right, #6fa3d5, #c2a1f0);
+    border: 2px solid #9b4fe0;
+}
+
+.regresar-btn {
+    background: linear-gradient(to right, #ff6b6b, #ff4f4f);
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.regresar-btn i {
+    margin-right: 8px;
+    font-size: 18px;
+}
+
+.regresar-btn:hover {
+    background: linear-gradient(to right, #ff9999, #ff6666);
+    border: 2px solid #ff4f4f;
+}
+
+input[type="text"]:focus {
+    border: 2px solid #9b4fe0;
+    outline: none;
+}
+
+form {
+    margin: 20px;
+    padding: 20px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}

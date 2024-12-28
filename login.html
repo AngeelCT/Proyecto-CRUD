@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>LOGIN</title>
+<link rel="icon" href="images/candado.jpg" type="image/png">
+<!-- Se vincula la hoja de estilo CSS para la página de login -->
+<link rel="stylesheet" href="login.css"/>
+</head>
+<body>
+<!-- Formulario -->
+<div class="formulario">
+    <!-- Título del de login -->
+    <h1>INICIO DE SESION</h1>
+    <!-- Formulario del login -->
+    <form method="post" action="login.php">
+        <!-- Campo para el nombre de usuario -->
+        <div class= "username">
+            <input type="text" name="txtusuario" required>
+            <label>Nombre de usuario</label>
+        </div>
+        <!-- Campo para la contraseña -->
+        <div class ="username">
+            <input type="password" name="txtpassword" required>
+            <label>Contraseña</label>
+        </div>
+        <!-- Botón para enviar el formulario -->
+        <input type ="submit" value="INICIAR">
+    </form>
+</div>
+
+</body>
+</html>
